@@ -1,2 +1,2 @@
 #!/bin/bash
-apptainer run skbench.sif "cd /app && /app/scripts/run.sh"
+apptainer run skbench.sif "/app/scripts/run.sh"
