@@ -13,6 +13,4 @@
 # Activate scratch (ONE LINE!)
 #source .activate_scratch
 
-#srun bash run-in-apptainer.sh
-cd sk-bench
-srun apptainer run ~/sk-bench-slurm/skbench.sif scripts/run.sh
+srun bash run-in-apptainer.sh
